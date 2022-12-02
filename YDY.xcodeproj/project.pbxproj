@@ -1,0 +1,1255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C278F3322FD3E8200818F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F3222FD3E8200818F9A /* AppDelegate.swift */; };
+		0C278F3522FD3E8200818F9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F3422FD3E8200818F9A /* ViewController.swift */; };
+		0C278F3822FD3E8200818F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F3622FD3E8200818F9A /* Main.storyboard */; };
+		0C278F3A22FD3E8400818F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F3922FD3E8400818F9A /* Assets.xcassets */; };
+		0C278F4822FD3E8400818F9A /* YDYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F4722FD3E8400818F9A /* YDYTests.swift */; };
+		0C278F5322FD3E8400818F9A /* YDYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F5222FD3E8400818F9A /* YDYUITests.swift */; };
+		0C278F5822FD3E8400818F9A /* YDY WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0C278F5722FD3E8400818F9A /* YDY WatchKit App.app */; };
+		0C278F5E22FD3E8400818F9A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F5C22FD3E8400818F9A /* Interface.storyboard */; };
+		0C278F6022FD3E8500818F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F5F22FD3E8500818F9A /* Assets.xcassets */; };
+		0C278F6722FD3E8500818F9A /* YDY WatchKit Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0C278F6622FD3E8500818F9A /* YDY WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0C278F6E22FD3E8500818F9A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F6D22FD3E8500818F9A /* ExtensionDelegate.swift */; };
+		0C278F7022FD3E8500818F9A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F6F22FD3E8500818F9A /* NotificationController.swift */; };
+		0C278F7222FD3E8500818F9A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F7122FD3E8500818F9A /* ComplicationController.swift */; };
+		0C278F7422FD3E8500818F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F7322FD3E8500818F9A /* Assets.xcassets */; };
+		0C66C21F23010FEE0032505C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C66C21E23010FEE0032505C /* MainController.swift */; };
+		0C66C222230117BB0032505C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C66C221230117BB0032505C /* HealthKit.framework */; };
+		0C66C225230119820032505C /* WorkoutTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C66C224230119820032505C /* WorkoutTracking.swift */; };
+		0C66C227230121660032505C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C66C226230121660032505C /* HealthKit.framework */; };
+		0C66C22A230121E80032505C /* LocalNotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C66C229230121E80032505C /* LocalNotificationHelper.swift */; };
+		0C66C22C230125EE0032505C /* WatchKitConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C66C22B230125EE0032505C /* WatchKitConnection.swift */; };
+		0C66C22E23012B8B0032505C /* WatchWorkoutTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C66C22D23012B8B0032505C /* WatchWorkoutTracking.swift */; };
+		0CA35A5A2302337D00B25189 /* WatchKitConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA35A592302337D00B25189 /* WatchKitConnection.swift */; };
+		0CA35A5C230272A500B25189 /* APIFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA35A5B230272A500B25189 /* APIFetcher.swift */; };
+		9DFDCB1E5F2F3DF08EF3E4B9 /* Pods_ElecDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDBF2487EC2B8DEF421A197 /* Pods_ElecDemo.framework */; };
+		C2224C97286F85534AC31277 /* Pods_ElecDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D76BD4D549DCBDBED866C2 /* Pods_ElecDemoTests.framework */; };
+		CA136BA2293A626A00C6A963 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA136BA1293A5F4500C6A963 /* UnityFramework.framework */; };
+		CA136BA3293A626A00C6A963 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA136BA1293A5F4500C6A963 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA13CC1A29270810003EDCB3 /* MainSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13CC1929270810003EDCB3 /* MainSwiftUIView.swift */; };
+		CA13CC1C29270A20003EDCB3 /* YDYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13CC1B29270A20003EDCB3 /* YDYApp.swift */; };
+		CA944FA2292BEFFB006714A2 /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA944FA1292BEFFB006714A2 /* Unity.swift */; };
+		CA945001292C3250006714A2 /* AVProVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA944FFD292C30D9006714A2 /* AVProVideo.framework */; };
+		CA945002292C3250006714A2 /* AVProVideo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA944FFD292C30D9006714A2 /* AVProVideo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEEACC8EB8F683715C5655D5 /* Pods_ElecDemo_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13257EB782BC24919A9F8BA1 /* Pods_ElecDemo_WatchKit_Extension.framework */; };
+		E33B2865893FD0777768D0D1 /* Pods_ElecDemo_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5004B7593727CD20C00D8A67 /* Pods_ElecDemo_WatchKit_App.framework */; };
+		F108B4C9D81A1213A7B86DAB /* Pods_ElecDemo_ElecDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5C504572344C3DA6A1B804 /* Pods_ElecDemo_ElecDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C278F4422FD3E8400818F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C278F2722FD3E8200818F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C278F2E22FD3E8200818F9A;
+			remoteInfo = ElecDemo;
+		};
+		0C278F4F22FD3E8400818F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C278F2722FD3E8200818F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C278F2E22FD3E8200818F9A;
+			remoteInfo = ElecDemo;
+		};
+		0C278F5922FD3E8400818F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C278F2722FD3E8200818F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C278F5622FD3E8400818F9A;
+			remoteInfo = "ElecDemo WatchKit App";
+		};
+		0C278F6822FD3E8500818F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C278F2722FD3E8200818F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C278F6522FD3E8500818F9A;
+			remoteInfo = "ElecDemo WatchKit Extension";
+		};
+		CA136B9C293A5F4500C6A963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = "Unity-iPhone";
+		};
+		CA136B9E293A5F4500C6A963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5623C57317FDCB0800090B9E;
+			remoteInfo = "Unity-iPhone Tests";
+		};
+		CA136BA0293A5F4500C6A963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D25AB9D213FB47800354C27;
+			remoteInfo = UnityFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C278F7C22FD3E8500818F9A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0C278F6722FD3E8500818F9A /* YDY WatchKit Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F8022FD3E8500818F9A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0C278F5822FD3E8400818F9A /* YDY WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA944FCA292C0B70006714A2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CA945002292C3250006714A2 /* AVProVideo.framework in Embed Frameworks */,
+				CA136BA3293A626A00C6A963 /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03851F61584415316F1BA948 /* Pods-ElecDemo-ElecDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo-ElecDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ElecDemo-ElecDemoUITests/Pods-ElecDemo-ElecDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C278F2F22FD3E8200818F9A /* YDY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C278F3222FD3E8200818F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C278F3422FD3E8200818F9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C278F3722FD3E8200818F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C278F3922FD3E8400818F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C278F3E22FD3E8400818F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C278F4322FD3E8400818F9A /* YDYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C278F4722FD3E8400818F9A /* YDYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDYTests.swift; sourceTree = "<group>"; };
+		0C278F4922FD3E8400818F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C278F4E22FD3E8400818F9A /* YDYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C278F5222FD3E8400818F9A /* YDYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDYUITests.swift; sourceTree = "<group>"; };
+		0C278F5422FD3E8400818F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C278F5722FD3E8400818F9A /* YDY WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YDY WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C278F5D22FD3E8400818F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0C278F5F22FD3E8500818F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C278F6122FD3E8500818F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C278F6622FD3E8500818F9A /* YDY WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YDY WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C278F6D22FD3E8500818F9A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0C278F6F22FD3E8500818F9A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0C278F7122FD3E8500818F9A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0C278F7322FD3E8500818F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C278F7522FD3E8500818F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C278F7622FD3E8500818F9A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0C66C21E23010FEE0032505C /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		0C66C221230117BB0032505C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		0C66C223230117BB0032505C /* YDY WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "YDY WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		0C66C224230119820032505C /* WorkoutTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTracking.swift; sourceTree = "<group>"; };
+		0C66C226230121660032505C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		0C66C228230121660032505C /* YDY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YDY.entitlements; sourceTree = "<group>"; };
+		0C66C229230121E80032505C /* LocalNotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationHelper.swift; sourceTree = "<group>"; };
+		0C66C22B230125EE0032505C /* WatchKitConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKitConnection.swift; sourceTree = "<group>"; };
+		0C66C22D23012B8B0032505C /* WatchWorkoutTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWorkoutTracking.swift; sourceTree = "<group>"; };
+		0CA35A592302337D00B25189 /* WatchKitConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchKitConnection.swift; sourceTree = "<group>"; };
+		0CA35A5B230272A500B25189 /* APIFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetcher.swift; sourceTree = "<group>"; };
+		13257EB782BC24919A9F8BA1 /* Pods_ElecDemo_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElecDemo_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2152C1704883D359C759911E /* Pods-ElecDemo WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-ElecDemo WatchKit Extension/Pods-ElecDemo WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		2C37B0FC64888FCB37BF7562 /* Pods-ElecDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo.release.xcconfig"; path = "Target Support Files/Pods-ElecDemo/Pods-ElecDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5004B7593727CD20C00D8A67 /* Pods_ElecDemo_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElecDemo_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540F40D7FDC9363A82999A80 /* Pods-ElecDemo WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-ElecDemo WatchKit App/Pods-ElecDemo WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		6CDBF2487EC2B8DEF421A197 /* Pods_ElecDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElecDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D76BD4D549DCBDBED866C2 /* Pods_ElecDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElecDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D3EA4D83CB5F26AB348403 /* Pods-ElecDemo WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-ElecDemo WatchKit Extension/Pods-ElecDemo WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		8C714008AF22EE7688DE7B84 /* Pods-ElecDemo-ElecDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo-ElecDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ElecDemo-ElecDemoUITests/Pods-ElecDemo-ElecDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A5C504572344C3DA6A1B804 /* Pods_ElecDemo_ElecDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElecDemo_ElecDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABB7F9CD58D49DEA1D997EF /* Pods-ElecDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ElecDemoTests/Pods-ElecDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5EA1FD51EDFBCCB7B92D20D /* Pods-ElecDemo WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-ElecDemo WatchKit App/Pods-ElecDemo WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		BB0592C02336A9A76898C89D /* Pods-ElecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo.debug.xcconfig"; path = "Target Support Files/Pods-ElecDemo/Pods-ElecDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "YDYUnity/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
+		CA13CC1929270810003EDCB3 /* MainSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSwiftUIView.swift; sourceTree = "<group>"; };
+		CA13CC1B29270A20003EDCB3 /* YDYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDYApp.swift; sourceTree = "<group>"; };
+		CA13CC232927DBA2003EDCB3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CA944FA1292BEFFB006714A2 /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
+		CA944FFD292C30D9006714A2 /* AVProVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVProVideo.framework; sourceTree = "<group>"; };
+		E1078B804B41B42DDED8F2C3 /* Pods-ElecDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ElecDemoTests/Pods-ElecDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C278F2C22FD3E8200818F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C66C227230121660032505C /* HealthKit.framework in Frameworks */,
+				9DFDCB1E5F2F3DF08EF3E4B9 /* Pods_ElecDemo.framework in Frameworks */,
+				CA945001292C3250006714A2 /* AVProVideo.framework in Frameworks */,
+				CA136BA2293A626A00C6A963 /* UnityFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F4022FD3E8400818F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2224C97286F85534AC31277 /* Pods_ElecDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F4B22FD3E8400818F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F108B4C9D81A1213A7B86DAB /* Pods_ElecDemo_ElecDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F6322FD3E8500818F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C66C222230117BB0032505C /* HealthKit.framework in Frameworks */,
+				CEEACC8EB8F683715C5655D5 /* Pods_ElecDemo_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046C1A87119FE2ACE666FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33B2865893FD0777768D0D1 /* Pods_ElecDemo_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C278F2622FD3E8200818F9A = {
+			isa = PBXGroup;
+			children = (
+				CA13CC1B29270A20003EDCB3 /* YDYApp.swift */,
+				CA13CC1929270810003EDCB3 /* MainSwiftUIView.swift */,
+				CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */,
+				0C278F3122FD3E8200818F9A /* YDY */,
+				0C278F4622FD3E8400818F9A /* YDYTests */,
+				0C278F5122FD3E8400818F9A /* YDYUITests */,
+				0C278F5B22FD3E8400818F9A /* YDY WatchKit App */,
+				0C278F6A22FD3E8500818F9A /* YDY WatchKit Extension */,
+				0C278F3022FD3E8200818F9A /* Products */,
+				0C66C220230117BB0032505C /* Frameworks */,
+				298A21735AE1060FCCD2CDE3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0C278F3022FD3E8200818F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C278F2F22FD3E8200818F9A /* YDY.app */,
+				0C278F4322FD3E8400818F9A /* YDYTests.xctest */,
+				0C278F4E22FD3E8400818F9A /* YDYUITests.xctest */,
+				0C278F5722FD3E8400818F9A /* YDY WatchKit App.app */,
+				0C278F6622FD3E8500818F9A /* YDY WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C278F3122FD3E8200818F9A /* YDY */ = {
+			isa = PBXGroup;
+			children = (
+				0C66C228230121660032505C /* YDY.entitlements */,
+				0C278F3222FD3E8200818F9A /* AppDelegate.swift */,
+				0C278F3422FD3E8200818F9A /* ViewController.swift */,
+				0C66C224230119820032505C /* WorkoutTracking.swift */,
+				0C66C229230121E80032505C /* LocalNotificationHelper.swift */,
+				0C66C22B230125EE0032505C /* WatchKitConnection.swift */,
+				0CA35A5B230272A500B25189 /* APIFetcher.swift */,
+				0C278F3622FD3E8200818F9A /* Main.storyboard */,
+				0C278F3922FD3E8400818F9A /* Assets.xcassets */,
+				0C278F3E22FD3E8400818F9A /* Info.plist */,
+				CA944FA1292BEFFB006714A2 /* Unity.swift */,
+			);
+			path = YDY;
+			sourceTree = "<group>";
+		};
+		0C278F4622FD3E8400818F9A /* YDYTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C278F4722FD3E8400818F9A /* YDYTests.swift */,
+				0C278F4922FD3E8400818F9A /* Info.plist */,
+			);
+			path = YDYTests;
+			sourceTree = "<group>";
+		};
+		0C278F5122FD3E8400818F9A /* YDYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C278F5222FD3E8400818F9A /* YDYUITests.swift */,
+				0C278F5422FD3E8400818F9A /* Info.plist */,
+			);
+			path = YDYUITests;
+			sourceTree = "<group>";
+		};
+		0C278F5B22FD3E8400818F9A /* YDY WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0C278F5C22FD3E8400818F9A /* Interface.storyboard */,
+				0C278F5F22FD3E8500818F9A /* Assets.xcassets */,
+				0C278F6122FD3E8500818F9A /* Info.plist */,
+			);
+			path = "YDY WatchKit App";
+			sourceTree = "<group>";
+		};
+		0C278F6A22FD3E8500818F9A /* YDY WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0C66C223230117BB0032505C /* YDY WatchKit Extension.entitlements */,
+				0C66C21E23010FEE0032505C /* MainController.swift */,
+				0CA35A592302337D00B25189 /* WatchKitConnection.swift */,
+				0C66C22D23012B8B0032505C /* WatchWorkoutTracking.swift */,
+				0C278F6D22FD3E8500818F9A /* ExtensionDelegate.swift */,
+				0C278F6F22FD3E8500818F9A /* NotificationController.swift */,
+				0C278F7122FD3E8500818F9A /* ComplicationController.swift */,
+				0C278F7322FD3E8500818F9A /* Assets.xcassets */,
+				0C278F7522FD3E8500818F9A /* Info.plist */,
+				0C278F7622FD3E8500818F9A /* PushNotificationPayload.apns */,
+			);
+			path = "YDY WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0C66C220230117BB0032505C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA944FFD292C30D9006714A2 /* AVProVideo.framework */,
+				CA13CC232927DBA2003EDCB3 /* AudioToolbox.framework */,
+				0C66C226230121660032505C /* HealthKit.framework */,
+				0C66C221230117BB0032505C /* HealthKit.framework */,
+				6CDBF2487EC2B8DEF421A197 /* Pods_ElecDemo.framework */,
+				5004B7593727CD20C00D8A67 /* Pods_ElecDemo_WatchKit_App.framework */,
+				13257EB782BC24919A9F8BA1 /* Pods_ElecDemo_WatchKit_Extension.framework */,
+				9A5C504572344C3DA6A1B804 /* Pods_ElecDemo_ElecDemoUITests.framework */,
+				75D76BD4D549DCBDBED866C2 /* Pods_ElecDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		298A21735AE1060FCCD2CDE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB0592C02336A9A76898C89D /* Pods-ElecDemo.debug.xcconfig */,
+				2C37B0FC64888FCB37BF7562 /* Pods-ElecDemo.release.xcconfig */,
+				B5EA1FD51EDFBCCB7B92D20D /* Pods-ElecDemo WatchKit App.debug.xcconfig */,
+				540F40D7FDC9363A82999A80 /* Pods-ElecDemo WatchKit App.release.xcconfig */,
+				2152C1704883D359C759911E /* Pods-ElecDemo WatchKit Extension.debug.xcconfig */,
+				85D3EA4D83CB5F26AB348403 /* Pods-ElecDemo WatchKit Extension.release.xcconfig */,
+				03851F61584415316F1BA948 /* Pods-ElecDemo-ElecDemoUITests.debug.xcconfig */,
+				8C714008AF22EE7688DE7B84 /* Pods-ElecDemo-ElecDemoUITests.release.xcconfig */,
+				9ABB7F9CD58D49DEA1D997EF /* Pods-ElecDemoTests.debug.xcconfig */,
+				E1078B804B41B42DDED8F2C3 /* Pods-ElecDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA136B97293A5F4400C6A963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA136B9D293A5F4500C6A963 /* Unity-Target-New.app */,
+				CA136B9F293A5F4500C6A963 /* Unity-iPhone Tests.xctest */,
+				CA136BA1293A5F4500C6A963 /* UnityFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C278F2E22FD3E8200818F9A /* YDY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C278F8122FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDY" */;
+			buildPhases = (
+				ACF001FE03AF66C5F978D074 /* [CP] Check Pods Manifest.lock */,
+				0C278F2B22FD3E8200818F9A /* Sources */,
+				0C278F2C22FD3E8200818F9A /* Frameworks */,
+				0C278F2D22FD3E8200818F9A /* Resources */,
+				0C278F8022FD3E8500818F9A /* Embed Watch Content */,
+				CA944FCA292C0B70006714A2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C278F5A22FD3E8400818F9A /* PBXTargetDependency */,
+			);
+			name = YDY;
+			productName = ElecDemo;
+			productReference = 0C278F2F22FD3E8200818F9A /* YDY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C278F4222FD3E8400818F9A /* YDYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C278F8422FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDYTests" */;
+			buildPhases = (
+				46947714E47F43CCF94577D0 /* [CP] Check Pods Manifest.lock */,
+				0C278F3F22FD3E8400818F9A /* Sources */,
+				0C278F4022FD3E8400818F9A /* Frameworks */,
+				0C278F4122FD3E8400818F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C278F4522FD3E8400818F9A /* PBXTargetDependency */,
+			);
+			name = YDYTests;
+			productName = ElecDemoTests;
+			productReference = 0C278F4322FD3E8400818F9A /* YDYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C278F4D22FD3E8400818F9A /* YDYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C278F8722FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDYUITests" */;
+			buildPhases = (
+				889C4B488B192C8713135F90 /* [CP] Check Pods Manifest.lock */,
+				0C278F4A22FD3E8400818F9A /* Sources */,
+				0C278F4B22FD3E8400818F9A /* Frameworks */,
+				0C278F4C22FD3E8400818F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C278F5022FD3E8400818F9A /* PBXTargetDependency */,
+			);
+			name = YDYUITests;
+			productName = ElecDemoUITests;
+			productReference = 0C278F4E22FD3E8400818F9A /* YDYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0C278F5622FD3E8400818F9A /* YDY WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C278F7D22FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDY WatchKit App" */;
+			buildPhases = (
+				97DB4B06AEEBC49501AF537A /* [CP] Check Pods Manifest.lock */,
+				0C278F5522FD3E8400818F9A /* Resources */,
+				0C278F7C22FD3E8500818F9A /* Embed Foundation Extensions */,
+				B046C1A87119FE2ACE666FFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C278F6922FD3E8500818F9A /* PBXTargetDependency */,
+			);
+			name = "YDY WatchKit App";
+			productName = "ElecDemo WatchKit App";
+			productReference = 0C278F5722FD3E8400818F9A /* YDY WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0C278F6522FD3E8500818F9A /* YDY WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C278F7922FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDY WatchKit Extension" */;
+			buildPhases = (
+				7CB154EA3CAFEF1A29B96532 /* [CP] Check Pods Manifest.lock */,
+				0C278F6222FD3E8500818F9A /* Sources */,
+				0C278F6322FD3E8500818F9A /* Frameworks */,
+				0C278F6422FD3E8500818F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YDY WatchKit Extension";
+			productName = "ElecDemo WatchKit Extension";
+			productReference = 0C278F6622FD3E8500818F9A /* YDY WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C278F2722FD3E8200818F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = GST.PID;
+				TargetAttributes = {
+					0C278F2E22FD3E8200818F9A = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					0C278F4222FD3E8400818F9A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0C278F2E22FD3E8200818F9A;
+					};
+					0C278F4D22FD3E8400818F9A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0C278F2E22FD3E8200818F9A;
+					};
+					0C278F5622FD3E8400818F9A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0C278F6522FD3E8500818F9A = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0C278F2A22FD3E8200818F9A /* Build configuration list for PBXProject "YDY" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C278F2622FD3E8200818F9A;
+			productRefGroup = 0C278F3022FD3E8200818F9A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CA136B97293A5F4400C6A963 /* Products */;
+					ProjectRef = CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0C278F2E22FD3E8200818F9A /* YDY */,
+				0C278F4222FD3E8400818F9A /* YDYTests */,
+				0C278F4D22FD3E8400818F9A /* YDYUITests */,
+				0C278F5622FD3E8400818F9A /* YDY WatchKit App */,
+				0C278F6522FD3E8500818F9A /* YDY WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CA136B9D293A5F4500C6A963 /* Unity-Target-New.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			name = "Unity-Target-New.app";
+			path = YDY.app;
+			remoteRef = CA136B9C293A5F4500C6A963 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA136B9F293A5F4500C6A963 /* Unity-iPhone Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unity-iPhone Tests.xctest";
+			remoteRef = CA136B9E293A5F4500C6A963 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA136BA1293A5F4500C6A963 /* UnityFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UnityFramework.framework;
+			remoteRef = CA136BA0293A5F4500C6A963 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C278F2D22FD3E8200818F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C278F3A22FD3E8400818F9A /* Assets.xcassets in Resources */,
+				0C278F3822FD3E8200818F9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F4122FD3E8400818F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F4C22FD3E8400818F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F5522FD3E8400818F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C278F6022FD3E8500818F9A /* Assets.xcassets in Resources */,
+				0C278F5E22FD3E8400818F9A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F6422FD3E8500818F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C278F7422FD3E8500818F9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46947714E47F43CCF94577D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElecDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB154EA3CAFEF1A29B96532 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElecDemo WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889C4B488B192C8713135F90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElecDemo-ElecDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97DB4B06AEEBC49501AF537A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElecDemo WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF001FE03AF66C5F978D074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElecDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C278F2B22FD3E8200818F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C66C22C230125EE0032505C /* WatchKitConnection.swift in Sources */,
+				0C278F3522FD3E8200818F9A /* ViewController.swift in Sources */,
+				CA13CC1A29270810003EDCB3 /* MainSwiftUIView.swift in Sources */,
+				0CA35A5C230272A500B25189 /* APIFetcher.swift in Sources */,
+				0C66C225230119820032505C /* WorkoutTracking.swift in Sources */,
+				0C66C22A230121E80032505C /* LocalNotificationHelper.swift in Sources */,
+				CA13CC1C29270A20003EDCB3 /* YDYApp.swift in Sources */,
+				CA944FA2292BEFFB006714A2 /* Unity.swift in Sources */,
+				0C278F3322FD3E8200818F9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F3F22FD3E8400818F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C278F4822FD3E8400818F9A /* YDYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F4A22FD3E8400818F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C278F5322FD3E8400818F9A /* YDYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C278F6222FD3E8500818F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C66C22E23012B8B0032505C /* WatchWorkoutTracking.swift in Sources */,
+				0C66C21F23010FEE0032505C /* MainController.swift in Sources */,
+				0C278F7022FD3E8500818F9A /* NotificationController.swift in Sources */,
+				0C278F7222FD3E8500818F9A /* ComplicationController.swift in Sources */,
+				0CA35A5A2302337D00B25189 /* WatchKitConnection.swift in Sources */,
+				0C278F6E22FD3E8500818F9A /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C278F4522FD3E8400818F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C278F2E22FD3E8200818F9A /* YDY */;
+			targetProxy = 0C278F4422FD3E8400818F9A /* PBXContainerItemProxy */;
+		};
+		0C278F5022FD3E8400818F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C278F2E22FD3E8200818F9A /* YDY */;
+			targetProxy = 0C278F4F22FD3E8400818F9A /* PBXContainerItemProxy */;
+		};
+		0C278F5A22FD3E8400818F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C278F5622FD3E8400818F9A /* YDY WatchKit App */;
+			targetProxy = 0C278F5922FD3E8400818F9A /* PBXContainerItemProxy */;
+		};
+		0C278F6922FD3E8500818F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C278F6522FD3E8500818F9A /* YDY WatchKit Extension */;
+			targetProxy = 0C278F6822FD3E8500818F9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C278F3622FD3E8200818F9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C278F3722FD3E8200818F9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C278F5C22FD3E8400818F9A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C278F5D22FD3E8400818F9A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C278F7722FD3E8500818F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		0C278F7822FD3E8500818F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		0C278F7A22FD3E8500818F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2152C1704883D359C759911E /* Pods-ElecDemo WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "YDY WatchKit Extension/YDY WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				INFOPLIST_FILE = "YDY WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDY.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		0C278F7B22FD3E8500818F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D3EA4D83CB5F26AB348403 /* Pods-ElecDemo WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "YDY WatchKit Extension/YDY WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				INFOPLIST_FILE = "YDY WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDY.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		0C278F7E22FD3E8500818F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EA1FD51EDFBCCB7B92D20D /* Pods-ElecDemo WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				IBSC_MODULE = ElecDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "YDY WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDY.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		0C278F7F22FD3E8500818F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540F40D7FDC9363A82999A80 /* Pods-ElecDemo WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				IBSC_MODULE = ElecDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "YDY WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDY.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		0C278F8222FD3E8500818F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0592C02336A9A76898C89D /* Pods-ElecDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = YDY/YDY.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YDYIOSLatestTestCopy",
+					"$(SDKROOT)/../../../../../../../../../Users/benjaminhoward/Documents/GitHub/swift_heart_rate_real_time/YDYIOSLatestTestCopy",
+					"$(PROJECT_DIR)/YDYIOSCopyForTests/Frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/toNativeMaster/Frameworks/Imports/AVProVideo/Runtime/Plugins/iOS",
+				);
+				INFOPLIST_FILE = YDY/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YDY;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C278F8322FD3E8500818F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C37B0FC64888FCB37BF7562 /* Pods-ElecDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = YDY/YDY.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YDYIOSLatestTestCopy",
+					"$(SDKROOT)/../../../../../../../../../Users/benjaminhoward/Documents/GitHub/swift_heart_rate_real_time/YDYIOSLatestTestCopy",
+					"$(PROJECT_DIR)/YDYIOSCopyForTests/Frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/toNativeMaster/Frameworks/Imports/AVProVideo/Runtime/Plugins/iOS",
+				);
+				INFOPLIST_FILE = YDY/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YDY;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C278F8522FD3E8500818F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABB7F9CD58D49DEA1D997EF /* Pods-ElecDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				INFOPLIST_FILE = ElecDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YDY.app/YDY";
+			};
+			name = Debug;
+		};
+		0C278F8622FD3E8500818F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1078B804B41B42DDED8F2C3 /* Pods-ElecDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				INFOPLIST_FILE = ElecDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YDY.app/YDY";
+			};
+			name = Release;
+		};
+		0C278F8822FD3E8500818F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03851F61584415316F1BA948 /* Pods-ElecDemo-ElecDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				INFOPLIST_FILE = ElecDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElecDemo;
+			};
+			name = Debug;
+		};
+		0C278F8922FD3E8500818F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C714008AF22EE7688DE7B84 /* Pods-ElecDemo-ElecDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PS46L3CPR6;
+				INFOPLIST_FILE = ElecDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DefaultCompany.YDYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElecDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C278F2A22FD3E8200818F9A /* Build configuration list for PBXProject "YDY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C278F7722FD3E8500818F9A /* Debug */,
+				0C278F7822FD3E8500818F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C278F7922FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDY WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C278F7A22FD3E8500818F9A /* Debug */,
+				0C278F7B22FD3E8500818F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C278F7D22FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDY WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C278F7E22FD3E8500818F9A /* Debug */,
+				0C278F7F22FD3E8500818F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C278F8122FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C278F8222FD3E8500818F9A /* Debug */,
+				0C278F8322FD3E8500818F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C278F8422FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C278F8522FD3E8500818F9A /* Debug */,
+				0C278F8622FD3E8500818F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C278F8722FD3E8500818F9A /* Build configuration list for PBXNativeTarget "YDYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C278F8822FD3E8500818F9A /* Debug */,
+				0C278F8922FD3E8500818F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C278F2722FD3E8200818F9A /* Project object */;
+}
