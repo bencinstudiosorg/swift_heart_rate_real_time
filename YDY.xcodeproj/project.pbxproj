@@ -32,10 +32,10 @@
 		0CA35A5C230272A500B25189 /* APIFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA35A5B230272A500B25189 /* APIFetcher.swift */; };
 		9DFDCB1E5F2F3DF08EF3E4B9 /* Pods_ElecDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDBF2487EC2B8DEF421A197 /* Pods_ElecDemo.framework */; };
 		C2224C97286F85534AC31277 /* Pods_ElecDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D76BD4D549DCBDBED866C2 /* Pods_ElecDemoTests.framework */; };
-		CA136BA2293A626A00C6A963 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA136BA1293A5F4500C6A963 /* UnityFramework.framework */; };
-		CA136BA3293A626A00C6A963 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA136BA1293A5F4500C6A963 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CA13CC1A29270810003EDCB3 /* MainSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13CC1929270810003EDCB3 /* MainSwiftUIView.swift */; };
 		CA13CC1C29270A20003EDCB3 /* YDYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13CC1B29270A20003EDCB3 /* YDYApp.swift */; };
+		CA1FE565293EB52C00C65512 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1FE564293EB51F00C65512 /* UnityFramework.framework */; };
+		CA1FE566293EB52C00C65512 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA1FE564293EB51F00C65512 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CA944FA2292BEFFB006714A2 /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA944FA1292BEFFB006714A2 /* Unity.swift */; };
 		CA945001292C3250006714A2 /* AVProVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA944FFD292C30D9006714A2 /* AVProVideo.framework */; };
 		CA945002292C3250006714A2 /* AVProVideo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA944FFD292C30D9006714A2 /* AVProVideo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -73,23 +73,23 @@
 			remoteGlobalIDString = 0C278F6522FD3E8500818F9A;
 			remoteInfo = "ElecDemo WatchKit Extension";
 		};
-		CA136B9C293A5F4500C6A963 /* PBXContainerItemProxy */ = {
+		CA1FE55F293EB51F00C65512 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */;
+			containerPortal = CA1FE559293EB51B00C65512 /* Unity-iPhone.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
 			remoteInfo = "Unity-iPhone";
 		};
-		CA136B9E293A5F4500C6A963 /* PBXContainerItemProxy */ = {
+		CA1FE561293EB51F00C65512 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */;
+			containerPortal = CA1FE559293EB51B00C65512 /* Unity-iPhone.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 5623C57317FDCB0800090B9E;
 			remoteInfo = "Unity-iPhone Tests";
 		};
-		CA136BA0293A5F4500C6A963 /* PBXContainerItemProxy */ = {
+		CA1FE563293EB51F00C65512 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */;
+			containerPortal = CA1FE559293EB51B00C65512 /* Unity-iPhone.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9D25AB9D213FB47800354C27;
 			remoteInfo = UnityFramework;
@@ -126,7 +126,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				CA945002292C3250006714A2 /* AVProVideo.framework in Embed Frameworks */,
-				CA136BA3293A626A00C6A963 /* UnityFramework.framework in Embed Frameworks */,
+				CA1FE566293EB52C00C65512 /* UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,10 +182,10 @@
 		9ABB7F9CD58D49DEA1D997EF /* Pods-ElecDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ElecDemoTests/Pods-ElecDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5EA1FD51EDFBCCB7B92D20D /* Pods-ElecDemo WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-ElecDemo WatchKit App/Pods-ElecDemo WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		BB0592C02336A9A76898C89D /* Pods-ElecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemo.debug.xcconfig"; path = "Target Support Files/Pods-ElecDemo/Pods-ElecDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "YDYUnity/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
 		CA13CC1929270810003EDCB3 /* MainSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSwiftUIView.swift; sourceTree = "<group>"; };
 		CA13CC1B29270A20003EDCB3 /* YDYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDYApp.swift; sourceTree = "<group>"; };
 		CA13CC232927DBA2003EDCB3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CA1FE559293EB51B00C65512 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "YDYUnity3/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
 		CA944FA1292BEFFB006714A2 /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
 		CA944FFD292C30D9006714A2 /* AVProVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVProVideo.framework; sourceTree = "<group>"; };
 		E1078B804B41B42DDED8F2C3 /* Pods-ElecDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ElecDemoTests/Pods-ElecDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 				0C66C227230121660032505C /* HealthKit.framework in Frameworks */,
 				9DFDCB1E5F2F3DF08EF3E4B9 /* Pods_ElecDemo.framework in Frameworks */,
 				CA945001292C3250006714A2 /* AVProVideo.framework in Frameworks */,
-				CA136BA2293A626A00C6A963 /* UnityFramework.framework in Frameworks */,
+				CA1FE565293EB52C00C65512 /* UnityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +244,7 @@
 			children = (
 				CA13CC1B29270A20003EDCB3 /* YDYApp.swift */,
 				CA13CC1929270810003EDCB3 /* MainSwiftUIView.swift */,
-				CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */,
+				CA1FE559293EB51B00C65512 /* Unity-iPhone.xcodeproj */,
 				0C278F3122FD3E8200818F9A /* YDY */,
 				0C278F4622FD3E8400818F9A /* YDYTests */,
 				0C278F5122FD3E8400818F9A /* YDYUITests */,
@@ -364,12 +364,12 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		CA136B97293A5F4400C6A963 /* Products */ = {
+		CA1FE55A293EB51B00C65512 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA136B9D293A5F4500C6A963 /* Unity-Target-New.app */,
-				CA136B9F293A5F4500C6A963 /* Unity-iPhone Tests.xctest */,
-				CA136BA1293A5F4500C6A963 /* UnityFramework.framework */,
+				CA1FE560293EB51F00C65512 /* Unity-Target-New.app */,
+				CA1FE562293EB51F00C65512 /* Unity-iPhone Tests.xctest */,
+				CA1FE564293EB51F00C65512 /* UnityFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -531,8 +531,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = CA136B97293A5F4400C6A963 /* Products */;
-					ProjectRef = CA136B96293A5F4400C6A963 /* Unity-iPhone.xcodeproj */;
+					ProductGroup = CA1FE55A293EB51B00C65512 /* Products */;
+					ProjectRef = CA1FE559293EB51B00C65512 /* Unity-iPhone.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -547,26 +547,26 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		CA136B9D293A5F4500C6A963 /* Unity-Target-New.app */ = {
+		CA1FE560293EB51F00C65512 /* Unity-Target-New.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			name = "Unity-Target-New.app";
 			path = YDY.app;
-			remoteRef = CA136B9C293A5F4500C6A963 /* PBXContainerItemProxy */;
+			remoteRef = CA1FE55F293EB51F00C65512 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CA136B9F293A5F4500C6A963 /* Unity-iPhone Tests.xctest */ = {
+		CA1FE562293EB51F00C65512 /* Unity-iPhone Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Unity-iPhone Tests.xctest";
-			remoteRef = CA136B9E293A5F4500C6A963 /* PBXContainerItemProxy */;
+			remoteRef = CA1FE561293EB51F00C65512 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CA136BA1293A5F4500C6A963 /* UnityFramework.framework */ = {
+		CA1FE564293EB51F00C65512 /* UnityFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = UnityFramework.framework;
-			remoteRef = CA136BA0293A5F4500C6A963 /* PBXContainerItemProxy */;
+			remoteRef = CA1FE563293EB51F00C65512 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -821,6 +821,7 @@
 		0C278F7722FD3E8500818F9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -885,6 +886,7 @@
 		0C278F7822FD3E8500818F9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
